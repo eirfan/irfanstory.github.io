@@ -1,0 +1,59 @@
+tulisan {color:black;
+background-color:gray;
+font-size:30;
+font-style:italic;
+text-align:center;
+font-align:center;
+
+}
+
+tulisan2 {
+	color: black;
+	font-size:16;
+	font-style:italic;
+	text-align:center;
+	/*tulisan2 block is used to write a common text of content.I am still searching for a right font to be used */
+}
+
+tulisan3{
+	color:red;
+	font-size:25;
+	font-style:bold;
+	background-color:black;
+	
+}
+hr {
+	background-color:black;
+	height:20px;
+	border:none;
+	
+}
+#highlighting .first em {
+	color:pink;
+	background-color:gray;
+	font-style:bold;
+	font-size:45;
+	/*this block represent the selector called highlighting and the class called first..em is decendent selector 
+	which is this whole block affected to html text..the text that withing tag<em> and </em> will posses this
+	characteristic...before we can use this characteristic..we must added it selector and class first
+	selector are being added before the tag that contain the text.we use div tag to initialize this id of selector
+	the name of the selector is the id of the selector.
+	<div id="name of id of the selector">
+	<p class="name of the class">example of <em>text<em><.p> 
+	
+	</div>
+	this is just the theory that been developed by me to understand more about this class and selector..it can be change somehow through
+	the learning process*/
+}
+
+.first em1{
+	color:pink;
+	background-color:gray;
+	font-style:bold;
+	font-size:16;
+	/* this block using the same selector and class but it differs from the decendent class. because i want to change the size
+	of the font but don't want to effect the already text that using the font 45. so i create a new decendent collecter linked to
+	the same class and selector to summon this font and it was a success
+}
+
+
